@@ -27,4 +27,9 @@ func PrintSlices(){
 //use slice
     fmt.Println(c[1:3])
 
+//declare and initialize a variable for slice in a single line
+    h := []string{"are","you","ok","?"}
+    fmt.Println(h)
+
+
 }
