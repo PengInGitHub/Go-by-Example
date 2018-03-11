@@ -16,7 +16,7 @@ func PrintArray(){
     a[4] = 100
     fmt.Println(a)
 
-//use built-in function len()
+//use the built-in function len()
     fmt.Println(len(a))
 
 }
