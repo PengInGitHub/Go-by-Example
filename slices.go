@@ -31,5 +31,14 @@ func PrintSlices(){
     h := []string{"are","you","ok","?"}
     fmt.Println(h)
 
-
+//compose slice into multi-dimension data structure
+    twoDSlice := make([][]int,3) 
+    for i:=0; i<3; i++{
+        innerLen := i+1
+        twoDSlice[i] = make([]int, innerLen)
+        for j:=0; j<innerLen; j++{
+            twoDSlice[i][j] = i+j    
+        }
+    }
+     fmt.Println("2d", twoDSlice)
 }
