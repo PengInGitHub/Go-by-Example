@@ -7,8 +7,13 @@ import (
 
 //in Go, an array is a numbered sequence of elements of a soecific length
 
-func Print(){
+func PrintArray(){
     
-    
-    fmt.Println()
+    var a [5]int
+    fmt.Println(a)
+
+//set a value at an index using the array[index] = value
+    a[4] = 100
+    fmt.Println(a)
+
 }
