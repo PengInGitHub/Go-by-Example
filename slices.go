@@ -19,4 +19,8 @@ func PrintSlices(){
     fmt.Println("set:", s)
     fmt.Println("get:", s[2])
 
+//use builtin append() and copy()
+    c := make([]string,len(s))
+    copy(c,s)
+    fmt.Println(c)
 }
