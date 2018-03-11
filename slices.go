@@ -9,4 +9,4 @@ func Print(){
     
     
     fmt.Println()
-} arrays.go
+}
