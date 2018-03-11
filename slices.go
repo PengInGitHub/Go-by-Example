@@ -23,4 +23,8 @@ func PrintSlices(){
     c := make([]string,len(s))
     copy(c,s)
     fmt.Println(c)
+
+//use slice
+    fmt.Println(c[1:3])
+
 }
