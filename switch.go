@@ -33,6 +33,21 @@ func PrintSwitch(){
         default:
           fmt.Println("it is after noon")     
     }
+
+//A type switch compares types instead of values. You can use this to discover the type of an interface value
+    whatAmI := func(i interface{}){
+        switch t := i.(type) {
+        case bool:
+           fmt.Println("it is bool")
+        case int:
+           fmt.Println("it is int")  
+        default:
+           fmt.Printf("unknown type %T\n", t)    
+        }
+    }
+    whatAmI(1)
+    whatAmI("haha")
+    whatAmI(false)
 }
 
 
