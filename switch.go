@@ -25,4 +25,36 @@ func PrintSwitch(){
       fmt.Println("it is weekday")     
     }
 
+//switch without an expression is an alternate way to express if/else logic
+    t := time.Now()
+    switch{
+        case t.Hour()<12:
+          fmt.Println("it is before noon")     
+        default:
+          fmt.Println("it is after noon")     
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
