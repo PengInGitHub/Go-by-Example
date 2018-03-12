@@ -9,7 +9,10 @@ import (
 //sometimes called hashes or dicts in other languages
 
 func PrintMaps(){
-    
-    
-    fmt.Println()
+
+//To create an empty map, use the builtin make: make(map[key-type]val-type).    
+    m := make(map[string]int)
+    m["k1"] = 20
+    m["k2"] = 8
+    fmt.Println(m)
 }
