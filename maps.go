@@ -23,7 +23,9 @@ func PrintMaps(){
 //The builtin delete removes key/value pairs from a map.
     delete(m,"k2")
     fmt.Println(m)
-
+//if key presents
+    _,prs := m["k2"]
+    fmt.Println("prs",prs)
 
     
 }
