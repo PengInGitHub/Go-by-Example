@@ -20,5 +20,10 @@ func PrintMaps(){
 
     fmt.Println(len(m))
 
+//The builtin delete removes key/value pairs from a map.
+    delete(m,"k2")
+    fmt.Println(m)
+
+
     
 }
