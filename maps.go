@@ -15,4 +15,10 @@ func PrintMaps(){
     m["k1"] = 20
     m["k2"] = 8
     fmt.Println(m)
+
+//The builtin len returns the number of key/value pairs when called on a map         
+
+    fmt.Println(len(m))
+
+    
 }
