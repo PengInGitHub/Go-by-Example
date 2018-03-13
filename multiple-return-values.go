@@ -15,4 +15,6 @@ func PrintMultipeReturnValues(){
     fmt.Println(a)
     fmt.Println(b)
 
+    _, c := vals()
+    fmt.Println(c)
 }
