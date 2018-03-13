@@ -21,4 +21,10 @@ func PrintRange(){
            fmt.Println("index:",i) 
         }
     }
+
+//use range on maps: range on map iterates over key/value pairs.
+   kvs := map[string]string {"a":"apple", "b":"banana"}
+   for k,v := range kvs{
+        fmt.Printf("%s -> %s\n",k,v)
+    }
 }
