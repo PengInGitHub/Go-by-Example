@@ -27,4 +27,9 @@ func PrintRange(){
    for k,v := range kvs{
         fmt.Printf("%s -> %s\n",k,v)
     }
+
+//iterate over keys only
+   for k := range kvs{
+        fmt.Printf("%s\n",k)
+    }
 }
