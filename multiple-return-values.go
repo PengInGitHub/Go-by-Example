@@ -5,8 +5,14 @@ import (
 
 )
 
+func vals() (int, int){
+    return 3,7
+}
+
 func PrintMultipeReturnValues(){
     
-    
-    fmt.Println()
+    a, b := vals()
+    fmt.Println(a)
+    fmt.Println(b)
+
 }
