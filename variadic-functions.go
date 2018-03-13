@@ -18,5 +18,8 @@ func sum(nums ...int){
 
 
 func PrintVariadicFunctions(){
-    sum(3,4,5)    
+    sum(3,4,5)
+//If you already have multiple args in a slice, apply them to a variadic function using func(slice...) like this.
+    nums := []int{12,22,56,7}
+    sum(nums...)    
 }
