@@ -27,5 +27,7 @@ func PrintMaps(){
     _,prs := m["k2"]
     fmt.Println("prs",prs)
 
-    
+//init a map in the same line
+    n := map[string]int{"foo":1,"bar":2}   
+    fmt.Println(n) 
 }
