@@ -20,5 +20,8 @@ func PrintPointers(){
     zeroval(i)
     fmt.Println("zeroval:",i)
 
-
+//The &i syntax gives the memory address of i, i.e. a pointer to i.
+    zeroptr(&i)
+    fmt.Println("zeroptr:",i)
+    fmt.Println("zeroptr:",&i)
 }
