@@ -30,5 +30,5 @@ func PrintGoroutines(){
     }("going")
 
     fmt.Scanln()
-    fmt.Println("done")
+    fmt.Println("done!")
 }
