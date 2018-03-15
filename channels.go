@@ -5,6 +5,7 @@ import (
 
 )
 
+//Channels are the pipes that connect concurrent goroutines.
 
 func PrintChannels(){
     
