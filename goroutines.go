@@ -29,5 +29,6 @@ func PrintGoroutines(){
         fmt.Println(msg)
     }("going")
 
-
+    fmt.Scanln()
+    fmt.Println("done")
 }
