@@ -18,5 +18,6 @@ func PrintChannels(){
     //send a message "ping" to the channel created above messages via a goroutine
     go func() {messages <- "ping"}()
     
-    fmt.Println()
+    msg := <- messages
+    fmt.Println(msg)
 }
