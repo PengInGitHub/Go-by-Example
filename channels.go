@@ -12,8 +12,11 @@ import (
 //channels are typed by the value they convey
 
 //send a value into channel: channel <- value 
+
 func PrintChannels(){
-    
+    messages := make(chan string)
+    //send a message "ping" to the channel created above messages via a goroutine
+    go func() {messages <- "ping"}()
     
     fmt.Println()
 }
