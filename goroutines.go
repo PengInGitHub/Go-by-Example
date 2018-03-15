@@ -5,6 +5,7 @@ import (
 
 )
 
+//A goroutine is a lightweight thread of execution.
 func PrintGoroutines(){
     
     
