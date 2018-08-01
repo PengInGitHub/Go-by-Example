@@ -6,10 +6,8 @@ import (
 )
 
 func main() {
-	problems := Parse()
-	for _, p := range problems {
-		fmt.Printf("%+v\n", p)
-	}
+	TimerLoopExample()
+	//fmt.Printf(msg)
 }
 
 func playFlag() string {

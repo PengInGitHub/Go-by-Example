@@ -7,7 +7,7 @@ type Problem struct {
 
 func Parse() []Problem {
 	var problems []Problem
-	for _, line := range getLines() {
+	for _, line := range GetLines() {
 		p := Problem{
 			line[0],
 			line[1],
@@ -18,7 +18,7 @@ func Parse() []Problem {
 	return problems
 }
 
-func getLines() [][]string {
+func GetLines() [][]string {
 	pls := [][]string{
 		{"Best language?", "PHP"},
 		{"First language?", "Java"},
