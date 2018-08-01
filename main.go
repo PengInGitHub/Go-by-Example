@@ -6,8 +6,10 @@ import (
 )
 
 func main() {
-	flags := playFlag()
-	fmt.Printf(flags)
+	problems := Parse()
+	for _, p := range problems {
+		fmt.Printf("%+v\n", p)
+	}
 }
 
 func playFlag() string {
