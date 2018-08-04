@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	TimerLoopExample()
-	//fmt.Printf(msg)
+	fg()
+	fmt.Println("Returned normally from f.")
 }
 
 func playFlag() string {
